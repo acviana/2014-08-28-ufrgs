@@ -1,7 +1,7 @@
 ---
 layout: bootcamp
 root: .
-venue: Universidade Federal do Rio Grande do Sul
+venue: Universidade Federal do Rio Grande do Sul (Campus do Vale)
 address: Instituto de Física da UFRGS, Av. Bento Gonçalves 9500
 country: Brazil
 humandate: Aug 28-29, 2014
@@ -54,6 +54,18 @@ contact: admin@software-carpentry.org
 -->
 {% if page.eventbrite %}
 <iframe src="//www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt" frameborder="0" width="100%" scrolling="auto"></iframe>
+{% else %}
+<h2>Registration</h2>
+<p>Send a email to <a href="mailto:cta@if.ufrgs.br">cta@if.ufrgs.br</a> with
+your:
+<ul>
+  <li>Full name</li>
+  <li>Email</li>
+  <li>Filiation</li>
+  <li>Phone number</li>
+</ul>
+We will send a confirmation to your email address.
+</p>
 {% endif %}
 
 <h2>General Information</h2>
